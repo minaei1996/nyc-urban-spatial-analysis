@@ -1,0 +1,99 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Environment variables and credentials
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Raw source data
+# ==========================================
+# Keep README.md, exclude all downloaded source datasets.
+data/raw/*
+!data/raw/README.md
+
+# ==========================================
+# Processed data
+# ==========================================
+# Keep README.md, exclude standalone generated datasets.
+data/processed/*
+!data/processed/README.md
+
+# ==========================================
+# Database files and backups
+# ==========================================
+*.dump
+*.backup
+*.bak
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+
+# Local PostgreSQL data directories
+pgdata/
+postgres_data/
+database_data/
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ==========================================
+# Operating system
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Editors and IDEs
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# QGIS temporary and backup files
+# ==========================================
+*.qgz~
+*.qgs~
+*.qgd
+*.qgd-shm
+*.qgd-wal
+*.qmd
+
+# ==========================================
+# Docker local overrides
+# ==========================================
+docker-compose.override.yml
