@@ -252,7 +252,7 @@ Integrated visualization of incident-density classes and straight-line proximity
 
 ### 3. High-Incident Parcels and Rite Aid Proximity
 
-![High-Incident NYC Parcels: Incident Concentration and Proximity to Rite Aid Locations](outputs/maps/High-Incident%20NYC%20Parcels_%20Incident%20Concentration%20and%20Proximity%20to%20Rite%20Aid%20Locations%20%282021%29%20300dps.png)
+![High-Incident NYC Parcels: Incident Concentration and Proximity to Rite Aid Locations](outputs/maps/High-Incident%20NYC%20Parcels_%20Incident%20Concentration%20and%20Proximity%20to%20Rite%20Aid%20Locations%20%282021.png)
 
 Two-panel comparison of incident concentration and straight-line distance to the nearest recorded Rite Aid location among high-incident NYC parcels.
 
